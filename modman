@@ -1,0 +1,3 @@
+# Storm Banner definition
+app/etc/modules/*.xml                   app/etc/modules/
+app/code/community/Storm/Banner/*       app/code/community/Storm/Banner/
