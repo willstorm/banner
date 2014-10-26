@@ -37,8 +37,27 @@
         <models>
             <banner>
                 <class>Storm_Banner_Model</class>
+                <resourceModel>banner_resource</resourceModel>
             </banner>
+            <banner_resource>
+                <class>Storm_Banner_Model_Resource</class>
+                <entities>
+                    <banner>
+                        <table>banner</table>
+                    </banner>
+                    <group>
+                        <table>banner_group</table>
+                    </group>
+                </entities>
+            </banner_resource>
         </models>
+        <resources>
+            <banner_setup>
+                <setup>
+                    <module>Storm_Banner</module>
+                </setup>
+            </banner_setup>
+        </resources>
     </global>
     <adminhtml>
         <translate>
@@ -58,4 +77,15 @@
             </updates>
         </layout>
     </adminhtml>
+    <admin>
+        <routers>
+            <banner>
+                <use>admin</use>
+                <args>
+                    <module>Storm_Banner</module>
+                    <frontName>banner</frontName>
+                </args>
+            </banner>
+        </routers>
+    </admin>
 </config>
