@@ -40,4 +40,22 @@
             </banner>
         </models>
     </global>
+    <adminhtml>
+        <translate>
+            <modules>
+                <Storm_Banner>
+                    <files>
+                        <default>Storm_Banner.csv</default>
+                    </files>
+                </Storm_Banner>
+            </modules>
+        </translate>
+        <layout>
+            <updates>
+                <banner>
+                    <file>banner.xml</file>
+                </banner>
+            </updates>
+        </layout>
+    </adminhtml>
 </config>

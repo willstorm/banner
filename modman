@@ -1,3 +1,4 @@
 # Storm Banner definition
 app/etc/modules/*.xml                   app/etc/modules/
+app/locale/pt_BR/*.csv                  app/locale/pt_BR/
 app/code/community/Storm/Banner/*       app/code/community/Storm/Banner/
